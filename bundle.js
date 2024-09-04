@@ -60,6 +60,53 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
+/***/ 626:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(991);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(314);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "* {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 16px;\n}\n\nbody {\n  line-height: 1;\n  font-family: 'Josefin Sans', sans-serif;\n}\n\nbutton {\n  cursor: pointer;\n}\n\na {\n  text-decoration: none;\n}\n\n:root {\n  --radial-gradient: radial-gradient(\n    110.23% 110.23% at 50% 50%,\n    #bd00ff 0%,\n    rgba(233, 97, 195, 0.77) 57.81%\n  );\n  --linear-gradient: linear-gradient(\n    180deg,\n    rgba(232, 109, 198, 0.1) 0%,\n    rgba(232, 109, 198, 0.64248) 38.02%,\n    #bd00ff 71.35%\n  );\n  --text-gradient: linear-gradient(270deg, #e86dc6 7.22%, #c625ff 77.95%);\n  --white: #fcfcfc;\n  --black: #131313;\n}\n", "",{"version":3,"sources":["webpack://./src/App.css"],"names":[],"mappings":"AAAA;EACE,SAAS;EACT,UAAU;EACV,SAAS;EACT,eAAe;EACf,aAAa;EACb,wBAAwB;EACxB,sBAAsB;AACxB;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,cAAc;EACd,uCAAuC;AACzC;;AAEA;EACE,eAAe;AACjB;;AAEA;EACE,qBAAqB;AACvB;;AAEA;EACE;;;;GAIC;EACD;;;;;GAKC;EACD,uEAAuE;EACvE,gBAAgB;EAChB,gBAAgB;AAClB","sourcesContent":["* {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline;\n  box-sizing: border-box;\n}\n\nhtml {\n  font-size: 16px;\n}\n\nbody {\n  line-height: 1;\n  font-family: 'Josefin Sans', sans-serif;\n}\n\nbutton {\n  cursor: pointer;\n}\n\na {\n  text-decoration: none;\n}\n\n:root {\n  --radial-gradient: radial-gradient(\n    110.23% 110.23% at 50% 50%,\n    #bd00ff 0%,\n    rgba(233, 97, 195, 0.77) 57.81%\n  );\n  --linear-gradient: linear-gradient(\n    180deg,\n    rgba(232, 109, 198, 0.1) 0%,\n    rgba(232, 109, 198, 0.64248) 38.02%,\n    #bd00ff 71.35%\n  );\n  --text-gradient: linear-gradient(270deg, #e86dc6 7.22%, #c625ff 77.95%);\n  --white: #fcfcfc;\n  --black: #131313;\n}\n"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
+/***/ 945:
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   A: () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(991);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(314);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1__);
+// Imports
+
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_cssWithMappingToString_js__WEBPACK_IMPORTED_MODULE_0___default()));
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, "footer {\n  justify-content: center;\n  width: 100%;\n  height: 7.5rem;\n  background: var(--black);\n  color: var(--white);\n}\n\nfooter p {\n  text-align: center;\n  font-style: normal;\n  font-weight: 400;\n  font-size: 1.25rem;\n  line-height: 7.5rem;\n}\n\nfooter a {\n  color: var(--white);\n  text-decoration: underline;\n}\n", "",{"version":3,"sources":["webpack://./src/components/Footer/Footer.module.css"],"names":[],"mappings":"AAAA;EACE,uBAAuB;EACvB,WAAW;EACX,cAAc;EACd,wBAAwB;EACxB,mBAAmB;AACrB;;AAEA;EACE,kBAAkB;EAClB,kBAAkB;EAClB,gBAAgB;EAChB,kBAAkB;EAClB,mBAAmB;AACrB;;AAEA;EACE,mBAAmB;EACnB,0BAA0B;AAC5B","sourcesContent":["footer {\n  justify-content: center;\n  width: 100%;\n  height: 7.5rem;\n  background: var(--black);\n  color: var(--white);\n}\n\nfooter p {\n  text-align: center;\n  font-style: normal;\n  font-weight: 400;\n  font-size: 1.25rem;\n  line-height: 7.5rem;\n}\n\nfooter a {\n  color: var(--white);\n  text-decoration: underline;\n}\n"],"sourceRoot":""}]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
+
+
+/***/ }),
+
 /***/ 627:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
@@ -6964,6 +7011,37 @@ const NavBar = () => {
 };
 /* harmony default export */ const NavBar_NavBar = (NavBar);
 
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/components/Footer/Footer.module.css
+var Footer_module = __webpack_require__(945);
+;// CONCATENATED MODULE: ./src/components/Footer/Footer.module.css
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var Footer_module_options = {};
+
+Footer_module_options.styleTagTransform = (styleTagTransform_default());
+Footer_module_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      Footer_module_options.insert = insertBySelector_default().bind(null, "head");
+    
+Footer_module_options.domAPI = (styleDomAPI_default());
+Footer_module_options.insertStyleElement = (insertStyleElement_default());
+
+var Footer_module_update = injectStylesIntoStyleTag_default()(Footer_module/* default */.A, Footer_module_options);
+
+
+
+
+       /* harmony default export */ const Footer_Footer_module = (Footer_module/* default */.A && Footer_module/* default */.A.locals ? Footer_module/* default */.A.locals : undefined);
+
 ;// CONCATENATED MODULE: ./src/components/Footer/Footer.tsx
 
 
@@ -6971,6 +7049,37 @@ const Footer = () => {
     return ((0,jsx_runtime.jsx)("footer", { children: (0,jsx_runtime.jsxs)("p", { children: ["(c) memegle. All rights reserved. Powered by\u00A0", (0,jsx_runtime.jsx)("a", Object.assign({ href: "https://giphy.com/" }, { children: "Giphy" })), "."] }) }));
 };
 /* harmony default export */ const Footer_Footer = (Footer);
+
+// EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/App.css
+var App = __webpack_require__(626);
+;// CONCATENATED MODULE: ./src/App.css
+
+      
+      
+      
+      
+      
+      
+      
+      
+      
+
+var App_options = {};
+
+App_options.styleTagTransform = (styleTagTransform_default());
+App_options.setAttributes = (setAttributesWithoutAttributes_default());
+
+      App_options.insert = insertBySelector_default().bind(null, "head");
+    
+App_options.domAPI = (styleDomAPI_default());
+App_options.insertStyleElement = (insertStyleElement_default());
+
+var App_update = injectStylesIntoStyleTag_default()(App/* default */.A, App_options);
+
+
+
+
+       /* harmony default export */ const src_App = (App/* default */.A && App/* default */.A.locals ? App/* default */.A.locals : undefined);
 
 ;// CONCATENATED MODULE: ./src/App.tsx
 
@@ -6980,17 +7089,17 @@ const Footer = () => {
 
 
 
-const App = () => {
+const App_App = () => {
     return ((0,jsx_runtime.jsxs)(HashRouter, { children: [(0,jsx_runtime.jsx)(NavBar_NavBar, {}), (0,jsx_runtime.jsxs)(Routes, { children: [(0,jsx_runtime.jsx)(Route, { path: "/", element: (0,jsx_runtime.jsx)(Home_Home, {}) }), (0,jsx_runtime.jsx)(Route, { path: "/search", element: (0,jsx_runtime.jsx)(Search_Search, {}) })] }), (0,jsx_runtime.jsx)(Footer_Footer, {})] }));
 };
-/* harmony default export */ const src_App = (App);
+/* harmony default export */ const src_App_0 = (App_App);
 
 ;// CONCATENATED MODULE: ./src/index.tsx
 
 
 
 const root = (0,client/* createRoot */.H)(document.getElementById('app'));
-root.render((0,jsx_runtime.jsx)(src_App, {}));
+root.render((0,jsx_runtime.jsx)(src_App_0, {}));
 
 })();
 
